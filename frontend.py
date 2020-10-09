@@ -36,7 +36,7 @@ def send_email(receiver_email,subject,message):
         print("receiver",receiver_email)
         
         # setup the parameters of the message
-        password = "fromKenyaToTheWorld254"
+        password = ""
         msg['From'] = "ngecu16@gmail.com"
         msg['To'] = receiver_email
         msg['Subject'] = subject
